@@ -1,0 +1,87 @@
+* {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9px;
+  text-align: center;
+  background-color: black;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  align-items: center;
+  top: 0px;
+}
+.header li {
+  display: inline-block;
+  flex-direction: row;
+  padding: 0px 15px;
+}
+.header ul {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  justify-content: space-around;
+}
+.header img {
+  height: 50px;
+  margin: 10px;
+  padding: 0px;
+}
+body {
+  overflow: scroll;
+}
+.mission {
+  background-image: url("/Users/michaelnewton/Documents/Projects/TeaCozy/Resources/Images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.tea {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.locations {
+  background-image: url("/Users/michaelnewton/Documents/Projects/TeaCozy/Resources/Images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.mission .info {
+  width: 1200px;
+  padding: 5px 0px;
+  top: 50%;
+  position: relative;
+  display: block;
+}
+h2 {
+  font-size: 35px;
+}
+.address  {
+  position: relative;
+  display: inline-block;
+  word-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin: 10px 20px;
+  line-height: 40px;
+  opacity: 1;
+  top: 40px;
+}
+.locations h2 {
+  background-color: transparent;
+  font-size: 35px;
+  position: relative;
+  display: block;
+}
