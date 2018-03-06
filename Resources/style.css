@@ -34,12 +34,15 @@
 }
 body {
   overflow: scroll;
+  position: relative;
+  top: 70px;
+  margin: 0px;
+  padding: 0px;
 }
 .mission {
   background-image: url("/Users/michaelnewton/Documents/Projects/TeaCozy/Resources/Images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  top: 70px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -57,31 +60,66 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding: 0px;
 }
 .mission .info {
   width: 1200px;
+  height: 150px;
   padding: 5px 0px;
-  top: 50%;
   position: relative;
   display: block;
+  top: 275px;
 }
 h2 {
   font-size: 35px;
+}
+.tea {
+  height: 700px;
+  padding: 50px;
+}
+.thumbnail {
+  width: 300px;
+  display: inline-block;
+  flex-direction: row;
+  margin: 10px;
+}
+.thumbnail img  {
+  height: 200px;
+  width: 300px;
+}
+h4 {
+  margin: 10px;
 }
 .address  {
   position: relative;
   display: inline-block;
   word-wrap: wrap;
   width: 300px;
-  height: 300px;
-  margin: 10px 20px;
-  line-height: 40px;
+  height: 280px;
+  margin: 0px 20px;
   opacity: 1;
-  top: 40px;
+  top: 50px;
+}
+h3 {
+  padding-top: 5px;
+}
+.address p {
+  line-height: 60px;
+  padding: 5px;
 }
 .locations h2 {
   background-color: transparent;
   font-size: 35px;
   position: relative;
   display: block;
+  margin: 15px;
+  padding: 0px;
+  top: 50px;
+}
+span {
+  position: absolute;
+  left: 20px;
+}
+.contact {
+  height: 200px;
 }
